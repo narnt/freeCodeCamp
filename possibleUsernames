@@ -1,5 +1,5 @@
 let username = "JackOfAllTrades";
-let userCheck = /[a-z][a-z]+[d$]*/i;
+let userCheck = /[a-z][a-z]+[\d$]*/i;
 let result = userCheck.test(username);
 
 // 1) The only numbers in the username have to be at the end. There can be zero or more of them at the end.
